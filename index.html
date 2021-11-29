@@ -27,13 +27,13 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Unity Builds.loader.js";
+      var loaderUrl = buildUrl + "/Build 5.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Unity Builds.data",
-        frameworkUrl: buildUrl + "/Unity Builds.framework.js",
-        codeUrl: buildUrl + "/Unity Builds.wasm",
+        dataUrl: buildUrl + "/Build 5.data",
+        frameworkUrl: buildUrl + "/Build 5.framework.js",
+        codeUrl: buildUrl + "/Build 5.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "mSudoku Company",
         productName: "mSudoku",
         productVersion: "1.0",
       };
@@ -50,7 +50,7 @@
       // Set this to false if you want to decouple this synchronization from
       // happening inside the engine, and you would instead like to size up
       // the canvas DOM size and WebGL render target sizes yourself.
-       config.matchWebGLToCanvasSize = false;
+      // config.matchWebGLToCanvasSize = false;
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         container.className = "unity-mobile";
